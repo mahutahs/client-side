@@ -4,9 +4,11 @@ var example = require('./views/example.hbs')
 
 xhr.get('https://api.wheretheiss.at/v1/satellites', function(err, data) {
   if (err) {throw err} // do something
+    console.log(data)
 var receivedData = JSON.parse(data.body)
 //console.log(data.body)
 
   console.log(receivedData)
+
 //  document.body.innerHTML = example(receivedData);
 })
