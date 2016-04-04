@@ -13,7 +13,7 @@ console.log("hello")
     console.log('data2 0',data2[0])
 
 
-//  document.body.innerHTML = example(receivedData);
+  document.body.innerHTML = example(data2[0]);
 })
 
 },{"./views/example.hbs":30,"xhr":22}],2:[function(require,module,exports){

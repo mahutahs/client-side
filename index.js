@@ -12,5 +12,5 @@ console.log("hello")
     console.log('data2 0',data2[0])
 
 
-//  document.body.innerHTML = example(receivedData);
+  document.body.innerHTML = example(data2[0]);
 })
