@@ -3,7 +3,7 @@ var example = require('./views/example.hbs')
 
 
 xhr.get('https://api.wheretheiss.at/v1/satellites', function(err, data) {
-  if (err) console.log(err) // do something
+  if (err) throw(err) // do something
 var receivedData = JSON.parse(data.body.name)
 
   console.log(receivedData)
